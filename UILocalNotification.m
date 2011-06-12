@@ -22,7 +22,7 @@
             [[UIApplication sharedApplication] cancelLocalNotification:localNotif];
             localNotif.applicationIconBadgeNumber = x + 1;
             [[UIApplication sharedApplication] scheduleLocalNotification:localNotif];
-            NSLog(@"notif: %@ badge %i", localNotif, localNotif.applicationIconBadgeNumber);
+            //NSLog(@"notif: %@ badge %i", localNotif, localNotif.applicationIconBadgeNumber);
         } 
     }
 
